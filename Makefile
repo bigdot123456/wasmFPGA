@@ -60,7 +60,7 @@ $(BUILD)/%_tb.vcd: $(BUILD)/%_tb
 $(BUILD)/%_tb: test/%_tb.v $(SRC)/%.v test/assert.vh
 	$(ECHO) -n $<"... "
 	mkdir -p $(@D)
-	$(IVERILOG) -I test $< -o $@
+	$(IVERILOG) -I test -o $@ $< 
 
 view/%: test/%
 	$(GTKWAVE) $(BUILD)/$(@F)_tb.vcd test/$(@F)_tb.gtkw
@@ -180,7 +180,7 @@ $(BUILD)/cpu/%.hex:
 $(BUILD)/cpu/%_tb: test/cpu/%_tb.v $(SRC)/cpu.v test/assert.vh
 	$(ECHO) -n $<"... "
 	mkdir -p $(@D)
-	$(IVERILOG) -I test $< -o $@
+	$(IVERILOG) -I test -o $@ $< 
 
 view/cpu/%: test/cpu/%
 	$(GTKWAVE) $(BUILD)/cpu/$(@F)_tb.vcd test/cpu/cpu_tb.gtkw
