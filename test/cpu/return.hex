@@ -1,0 +1,3 @@
+42 2a  // i64.const 42
+0f     // return
+0b     // end

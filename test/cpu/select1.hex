@@ -1,0 +1,5 @@
+42 02  // i64.const 2
+42 01  // i64.const 1
+41 01  // i32.const 1 - true
+1b     // select
+0b     // end

@@ -1,0 +1,4 @@
+41 01  // i64.const 1
+41 02  // i64.const 2
+6a     // i64.add
+0b     // end

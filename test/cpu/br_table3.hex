@@ -1,0 +1,21 @@
+02 7e 00 00 00 2d      // block
+  02 7e 00 00 00 29    // block
+    02 7e 00 00 00 25  // block
+      42 03            // i64.const 3
+
+      41 03            // i32.const 3 - use default
+      0e 02            // br_table 2
+        00 00 00 02    // 2
+        00 00 00 01    // 1
+        00 00 00 00    // default - 0
+    0b                 // end
+
+    42 05              // i64.const 5
+    7c                 // i64.add
+  0b                   // end
+
+  42 04                // i64.const 4
+  7c                   // i64.add
+0b                     // end
+
+0b                     // end

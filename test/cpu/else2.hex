@@ -1,0 +1,8 @@
+41 01                          // i32.const 1 - true
+04 7f 00 00 00 12 00 00 00 0f  // if i32
+  41 02                        // i32.const 2
+05                             // else
+  41 03                        // i32.const 3
+0b                             // end
+
+0b                             // end

@@ -1,0 +1,6 @@
+[submodule "vendor/LEB128"]
+	path = vendor/LEB128
+	url = https://github.com/piranna/LEB128.git
+[submodule "vendor/fpu"]
+	path = vendor/fpu
+	url = https://github.com/piranna/fpu.git

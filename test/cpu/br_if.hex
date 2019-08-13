@@ -1,0 +1,7 @@
+02 7e 00 00 00 0f  // block
+  42 2a            // i64.const 42
+  41 01            // i32.const 1
+  0d 00            // br_if     0
+  42 15            // i64.const 21
+0b                 // end
+0b                 // end

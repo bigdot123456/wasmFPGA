@@ -1,0 +1,3 @@
+42 2a  // i64.const 42 - The answer to Life, Universe and Everything else
+1a     // drop
+0b     // end

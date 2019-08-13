@@ -1,0 +1,3 @@
+42 00  // i64.const 00 - true
+50     // i64.eqz
+0b     // end

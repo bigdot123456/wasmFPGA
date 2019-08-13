@@ -1,0 +1,4 @@
+41 01  // i32.const 1
+41 02  // i32.const 2
+46     // i32.eq - false
+0b     // end

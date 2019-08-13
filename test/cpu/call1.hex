@@ -1,0 +1,12 @@
+// Functions index
+00 00 00 02                             // 2 functions
+00 00 00 1e 7e 00 00 00 00 00 00 00 00  // function 0 / i64 / 0 / 0
+00 00 00 21 7e 00 00 00 00 00 00 00 00  // function 1 / i64 / 0 / 0
+
+// function 0
+42 2a  // i64.const 42
+0b     // end
+
+// function 1
+10 00  // call 0
+0b     // end

@@ -1,0 +1,10 @@
+language: verilog
+dist: trusty
+addons:
+  apt:
+    sources:
+    - sourceline: 'deb http://es.archive.ubuntu.com/ubuntu/ yakkety main universe'
+    packages:
+    - make
+    - iverilog
+script: make test

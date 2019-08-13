@@ -1,0 +1,3 @@
+41 01  // i32.const 01 - false
+45     // i32.eqz
+0b     // end

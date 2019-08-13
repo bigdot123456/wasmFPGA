@@ -1,0 +1,10 @@
+// Functions index
+00 00 00 01                             // 1 function
+00 00 00 11 7e 00 00 00 00 00 00 00 01  // function 0 / i64 / 0 / 1
+
+// function 0
+42 01  // i64.const 1
+22 00  // tee_local 0
+20 00  // get_local 0
+7c     // i64.add
+0b     // end

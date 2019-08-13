@@ -1,0 +1,15 @@
+42 2a  // i64.const 42 - The answer to Life, Universe and Everything else
+a7     // i32.wrap/i64
+0b     // end
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00

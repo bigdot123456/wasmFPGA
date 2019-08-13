@@ -1,0 +1,4 @@
+42 00  // i64.const 0
+42 00  // i64.const 0
+52     // i64.ne - false
+0b     // end

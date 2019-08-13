@@ -1,0 +1,23 @@
+// Functions index
+00 00 00 03                             // 3 functions
+00 00 00 2b 7e 00 00 00 01 00 00 00 01  // function 0 / i64 / 1 / 1
+00 00 00 2e 7e 00 00 00 01 00 00 00 01  // function 1 / i64 / 1 / 1
+00 00 00 3c 7e 00 00 00 00 00 00 00 00  // function 2 / i64 / 0 / 0
+
+// function 0
+20 00  // get_local 0
+0b     // end
+
+// function 0
+20 00  // get_local 0
+42 02  // i64.const 2
+10 00  // call 0
+7c     // i64.add
+0b     // end
+
+// function 2
+42 01  // i64.const 1
+10 01  // call 1
+42 01  // i64.const 1
+7c     // i64.add
+0b     // end

@@ -1,0 +1,8 @@
+41 00                          // i32.const 0 - false
+04 7f 00 00 00 10 00 00 00 00  // if i32
+  41 02                        // i32.const 2
+  0f                           // return
+0b                             // end
+
+41 03                          // i32.const 3
+0b                             // end

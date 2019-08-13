@@ -1,0 +1,4 @@
+41 2a  // i32.const 42
+41 2a  // i32.const 42
+46     // i32.eq - true
+0b     // end

@@ -1,0 +1,4 @@
+02 7e 00 00 00 09  // block
+  42 2a            // i64.const 42
+0b                 // end
+0b                 // end

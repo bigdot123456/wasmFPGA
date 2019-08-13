@@ -1,0 +1,93 @@
+[*]
+[*] GTKWave Analyzer v3.3.79 (w)1999-2017 BSI
+[*] Mon Apr 17 19:44:19 2017
+[*]
+[dumpfile] "/home/piranna/github/wasmachine/build/cpu/block_tb.vcd"
+[dumpfile_mtime] "Mon Apr 17 19:43:10 2017"
+[dumpfile_size] 12313
+[savefile] "/home/piranna/github/wasmachine/test/cpu/cpu_tb.gtkw"
+[timestart] 0
+[size] 1366 720
+[pos] -1 -1
+*-2.901924 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.dut.
+[treeopen] cpu_tb.dut.blockStack.
+[treeopen] cpu_tb.dut.leb128.
+[treeopen] cpu_tb.dut.stack.
+[sst_width] 213
+[signals_width] 342
+[sst_expanded] 1
+[sst_vpaned_height] 293
+@28
+cpu_tb.dut.clk
+cpu_tb.dut.reset
+@201
+-
+@28
+cpu_tb.dut.step[2:0]
+@22
+cpu_tb.dut.opcode[7:0]
+cpu_tb.trap[3:0]
+@200
+-result
+@22
+cpu_tb.result[63:0]
+@28
+cpu_tb.result_empty
+@200
+-Stack
+@28
+cpu_tb.dut.stack_op[2:0]
+@22
+cpu_tb.dut.stack_data[65:0]
+cpu_tb.dut.stack_index[7:0]
+cpu_tb.dut.stack_offset[7:0]
+cpu_tb.dut.stack_underflow[7:0]
+cpu_tb.dut.stack_upper[7:0]
+cpu_tb.dut.stack_lower[7:0]
+cpu_tb.dut.stack_out[65:0]
+cpu_tb.dut.stack_out1[65:0]
+cpu_tb.dut.stack_out2[65:0]
+@28
+cpu_tb.dut.stack_status[2:0]
+@200
+-Block stack
+@28
+cpu_tb.dut.blockStack_op[2:0]
+cpu_tb.dut.blockStack_out_type[1:0]
+@22
+cpu_tb.dut.blockStack_out_index[7:0]
+cpu_tb.dut.blockStack_index[3:0]
+cpu_tb.dut.blockStack_underflow[3:0]
+@28
+cpu_tb.dut.blockStack_status[2:0]
+@200
+-Call stack
+@22
+cpu_tb.dut.callStack_out_blockIndex[3:0]
+cpu_tb.dut.callStack_out_blockUnderflow[3:0]
+cpu_tb.dut.callStack_out_upper[7:0]
+cpu_tb.dut.callStack_out_lower[7:0]
+@28
+cpu_tb.dut.callStack_status[1:0]
+cpu_tb.dut.callStack.index[1:0]
+@200
+-LEB128
+@22
+cpu_tb.dut.leb128_out[63:0]
+cpu_tb.dut.leb128_len[3:0]
+@200
+-Double to Float
+@22
+cpu_tb.dut.d2f.a[63:0]
+@28
+cpu_tb.dut.double_to_float_a_ack
+cpu_tb.dut.double_to_float_a_stb
+@22
+cpu_tb.dut.double_to_float_z[31:0]
+@28
+cpu_tb.dut.double_to_float_z_stb
+cpu_tb.dut.double_to_float_z_ack
+[pattern_trace] 1
+[pattern_trace] 0
